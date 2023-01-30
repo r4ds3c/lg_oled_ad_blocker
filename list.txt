@@ -1,3 +1,18 @@
+lgtvonline.lge.com
+.*\.lg[a-z]\.\w+
+.*lg.*tv.*\.\w+
+.*lg.*ad\.\w+
+lgad.*
+nl.lgtvsdp.com
+ad.lgappstv.com
+yumenetworks.com
+smartclip.net
+smartclip.com
+llnwd.net
+smartshare.lgtvsdp.com
+ibis.lgappstv.com
+
+
 127.0.0.1 nl.rdx2.lgtvsdp.com
 127.0.0.1 nl.info.lgsmartad.com
 127.0.0.1 nl.ibs.lgappstv.com
