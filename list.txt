@@ -1,0 +1,25 @@
+127.0.0.1 us.rdx2.lgtvsdp.com
+127.0.0.1 us.info.lgsmartad.com
+127.0.0.1 us.ibs.lgappstv.com
+127.0.0.1 us.lgtvsdp.com
+127.0.0.1 ad.lgappstv.com
+127.0.0.1 smartshare.lgtvsdp.com
+127.0.0.1 ibis.lgappstv.com
+
+# added after fork
+# from https://www.reddit.com/r/pihole/comments/6qmpv6/blacklists_for_lg_webos_tvs/ and others
+127.0.0.1 us.ad.lgsmartad.com
+127.0.0.1 lgad.cjpowercast.com.edgesuite.net
+127.0.0.1 ngfts.lge.com
+127.0.0.1 yumenetworks.com
+127.0.0.1 smartclip.net
+127.0.0.1 smartclip.com
+
+# non us
+127.0.0.1 rdx2.lgtvsdp.com
+127.0.0.1 info.lgsmartad.com
+127.0.0.1 ibs.lgappstv.com
+127.0.0.1 lgtvsdp.com
+127.0.0.1 lgappstv.com
+127.0.0.1 smartshare.lgtvsdp.com
+127.0.0.1 lgappstv.com
