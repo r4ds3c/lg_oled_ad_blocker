@@ -1,3 +1,6 @@
+############################################
+# LG / WebOS – Regex & Wildcard Rules
+############################################
 lgtvonline.lge.com
 .*\.lg[a-z]\.\w+
 .*lg.*tv.*\.\w+
@@ -5,36 +8,91 @@ lgtvonline.lge.com
 lgad.*
 nl.lgtvsdp.com
 ad.lgappstv.com
+smartshare.lgtvsdp.com
+ibis.lgappstv.com
 yumenetworks.com
 smartclip.net
 smartclip.com
 llnwd.net
-smartshare.lgtvsdp.com
-ibis.lgappstv.com
 
 
+############################################
+# LG / WebOS – Hosts blocked via 127.0.0.1
+############################################
 127.0.0.1 nl.rdx2.lgtvsdp.com
-127.0.0.1 nl.info.lgsmartad.com
-127.0.0.1 nl.ibs.lgappstv.com
-127.0.0.1 nl.lgtvsdp.com
-127.0.0.1 ad.lgappstv.com
-127.0.0.1 smartshare.lgtvsdp.com
-127.0.0.1 ibis.lgappstv.com
+127.0.0.1 rdx2.lgtvsdp.com
+127.0.0.1 us.rdx2.lgtvsdp.com
 
-# added after fork
-# from https://www.reddit.com/r/pihole/comments/6qmpv6/blacklists_for_lg_webos_tvs/ and others
+127.0.0.1 nl.lgtvsdp.com
+127.0.0.1 lgtvsdp.com
+
+127.0.0.1 nl.info.lgsmartad.com
+127.0.0.1 info.lgsmartad.com
 127.0.0.1 nl.ad.lgsmartad.com
-127.0.0.1 lgad.cjpowercast.com.edgesuite.net
+
+127.0.0.1 nl.ibs.lgappstv.com
+127.0.0.1 ibs.lgappstv.com
+127.0.0.1 ibis.lgappstv.com
+127.0.0.1 us.ibs.lgappstv.com
+127.0.0.1 lgappstv.com
+127.0.0.1 ad.lgappstv.com
+
+127.0.0.1 smartshare.lgtvsdp.com
 127.0.0.1 ngfts.lge.com
+127.0.0.1 lgad.cjpowercast.com.edgesuite.net
 127.0.0.1 yumenetworks.com
 127.0.0.1 smartclip.net
 127.0.0.1 smartclip.com
 
-# non us
-127.0.0.1 rdx2.lgtvsdp.com
-127.0.0.1 info.lgsmartad.com
-127.0.0.1 ibs.lgappstv.com
-127.0.0.1 lgtvsdp.com
-127.0.0.1 lgappstv.com
-127.0.0.1 smartshare.lgtvsdp.com
-127.0.0.1 lgappstv.com
+
+############################################
+# LG / WebOS – Hosts blocked via 0.0.0.0
+############################################
+0.0.0.0 lgtvonline.lge.com
+0.0.0.0 snu.lge.com
+0.0.0.0 ngfts.lge.com
+0.0.0.0 qt2-ngfts.lge.com
+0.0.0.0 aic-ngfts.lge.com
+0.0.0.0 aic-gfts.lge.com
+
+0.0.0.0 aic.recommend.lgtvcommon.com
+0.0.0.0 aic.homeprv.lgtvcommon.com
+0.0.0.0 aic.nudge.lgtvcommon.com
+0.0.0.0 aic.rdl.lgtvcommon.com
+0.0.0.0 aic.wiseconfig.lgtvcommon.com
+
+0.0.0.0 aic.lgtviot.com
+0.0.0.0 aic.api.lgtviot.com
+0.0.0.0 aic.sports.lgtviot.com
+
+0.0.0.0 common.lgthinq.com
+0.0.0.0 lss.lgthinq.com
+0.0.0.0 aic-op-lss.lgthinq.com
+
+0.0.0.0 us.emp.lgsmartplatform.com
+0.0.0.0 us.lgeapi.com
+
+0.0.0.0 images.pluto.tv
+0.0.0.0 canvas.tubitv.com
+0.0.0.0 images.redbox.com
+
+0.0.0.0 img.nvidiagrid.net
+0.0.0.0 cdn77.utomik.com
+0.0.0.0 mediaservices.cdn-apple.com
+
+0.0.0.0 discovery.meethue.com
+0.0.0.0 developers.google.com
+0.0.0.0 service.idsync.analytics.yahoo.com
+0.0.0.0 mindfieldonline.com
+
+0.0.0.0 www.ueiwsp.com
+0.0.0.0 i.ibb.co
+
+0.0.0.0 unagi-na.amazon.com
+0.0.0.0 ipv6.unagi-na.amazon.com
+0.0.0.0 threeplr-avuypkjypveaj-0.api.amazonvideo.com
+0.0.0.0 cf-trickplay.aux.pv-cdn.net
+0.0.0.0 s3-iad-2.cf.dash.row.aiv-cdn.net
+0.0.0.0 api.us-east-1.aiv-delivery.net
+
+0.0.0.0 nevoai-iothub-54-prod.azure-devices.net
