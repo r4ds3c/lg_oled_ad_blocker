@@ -1,0 +1,62 @@
+################################################################################
+# LG WebOS – Curated exact-domain DNS blocklist (Unbound)
+# Derived from AdGuard/hosts list
+# Blocks ads, telemetry, smart TV tracking
+################################################################################
+
+# --- Core LG telemetry / ads ---
+local-zone: "lgtvonline.lge.com" always_nxdomain
+local-zone: "snu.lge.com" always_nxdomain
+local-zone: "ngfts.lge.com" always_nxdomain
+local-zone: "qt2-ngfts.lge.com" always_nxdomain
+local-zone: "aic-ngfts.lge.com" always_nxdomain
+local-zone: "aic-gfts.lge.com" always_nxdomain
+
+# --- LG Smart Ad platform ---
+local-zone: "lgsmartad.com" always_nxdomain
+local-zone: "info.lgsmartad.com" always_nxdomain
+local-zone: "nl.info.lgsmartad.com" always_nxdomain
+local-zone: "nl.ad.lgsmartad.com" always_nxdomain
+
+# --- LG TV service / discovery endpoints ---
+local-zone: "lgtvsdp.com" always_nxdomain
+local-zone: "nl.lgtvsdp.com" always_nxdomain
+local-zone: "smartshare.lgtvsdp.com" always_nxdomain
+local-zone: "rdx2.lgtvsdp.com" always_nxdomain
+local-zone: "nl.rdx2.lgtvsdp.com" always_nxdomain
+local-zone: "us.rdx2.lgtvsdp.com" always_nxdomain
+
+# --- LG app / content telemetry ---
+local-zone: "lgappstv.com" always_nxdomain
+local-zone: "ad.lgappstv.com" always_nxdomain
+local-zone: "ibs.lgappstv.com" always_nxdomain
+local-zone: "ibis.lgappstv.com" always_nxdomain
+local-zone: "nl.ibs.lgappstv.com" always_nxdomain
+local-zone: "us.ibs.lgappstv.com" always_nxdomain
+
+# --- LG AI / IoT tracking ---
+local-zone: "lgtviot.com" always_nxdomain
+local-zone: "aic.lgtviot.com" always_nxdomain
+local-zone: "aic.api.lgtviot.com" always_nxdomain
+local-zone: "aic.sports.lgtviot.com" always_nxdomain
+
+# --- LG ThinQ ---
+local-zone: "lgthinq.com" always_nxdomain
+local-zone: "common.lgthinq.com" always_nxdomain
+local-zone: "lss.lgthinq.com" always_nxdomain
+local-zone: "aic-op-lss.lgthinq.com" always_nxdomain
+
+# --- Recommendation / profiling ---
+local-zone: "lgtvcommon.com" always_nxdomain
+local-zone: "aic.recommend.lgtvcommon.com" always_nxdomain
+local-zone: "aic.homeprv.lgtvcommon.com" always_nxdomain
+local-zone: "aic.nudge.lgtvcommon.com" always_nxdomain
+local-zone: "aic.rdl.lgtvcommon.com" always_nxdomain
+local-zone: "aic.wiseconfig.lgtvcommon.com" always_nxdomain
+
+# --- Third-party ad & tracking ---
+local-zone: "yumenetworks.com" always_nxdomain
+local-zone: "smartclip.net" always_nxdomain
+local-zone: "smartclip.com" always_nxdomain
+local-zone: "llnwd.net" always_nxdomain
+local-zone: "mindfieldonline.com" always_nxdomain
